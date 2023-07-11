@@ -12,9 +12,9 @@ pipeline {
                 echo 'Hello vijitha'
             }
         }
-        stage('deploy') {
+        stage('admin') {
             steps {
-                echo 'Hello sir'
+                echo 'Hello madam'
             }
         }
     }
